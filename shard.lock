@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  await_async:
+    github: anykeyh/await_async
+    commit: 3bd656de19ed587118cf5bed4c3b467e8de690ca
+
+  duktape:
+    github: jessedoyle/duktape.cr
+    version: 0.15.0
+
+  hardware:
+    github: crystal-community/hardware
+    version: 0.4.0
+
+  leveldb:
+    github: crystal-community/leveldb
+    version: 0.2.0
+

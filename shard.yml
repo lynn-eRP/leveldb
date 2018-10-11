@@ -1,0 +1,26 @@
+name: test
+version: 0.1.0
+
+authors:
+  - badinga ulrich <badinga.ulrich@gmail.com>
+
+targets:
+  test:
+    main: src/test.cr
+
+dependencies:
+  leveldb:
+    github: "crystal-community/leveldb"
+    version: "~> 0.2.0"
+  duktape:
+    github: jessedoyle/duktape.cr
+    version: ~> 0.15.0
+  await_async:
+    github: anykeyh/await_async
+    branch: master
+  hardware:
+    github: crystal-community/hardware
+
+crystal: 0.26.1
+
+license: MIT
